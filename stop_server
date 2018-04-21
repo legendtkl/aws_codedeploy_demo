@@ -1,0 +1,6 @@
+#!/bin/bash
+isExistApp = `pgrep aws_codedeploy_demo`
+if [[ -n  $isExistApp ]]; then
+    service httpd stop        
+fi
+
