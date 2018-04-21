@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /aws_codedeploy_demo
+  - source: aws_codedeploy_demo
     destination: /root/kelu_demo/
 hooks:
   BeforeInstall:
